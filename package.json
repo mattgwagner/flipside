@@ -1,0 +1,12 @@
+{
+  "name": "flipside",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "sim": "node scripts/sim.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "node scripts/sim.mjs && node scripts/smoke.mjs",
+    "deploy": "npx -y wrangler deploy"
+  }
+}
